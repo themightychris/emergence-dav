@@ -1,0 +1,20 @@
+{
+  "description": "Provides a WebDAV server for accessing emergence virtual filesystems",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "flatiron": "0.3.2",
+    "jsDAV": "0.2.4"
+  },
+  "devDependencies": {
+    "cli-easy": "0.1.0",
+    "vows": "0.6.1"
+  },
+  "scripts": {
+    "test": "vows --spec",
+    "start": "node app.js"
+  },
+  "author": "Chris Alfano",
+  "homepage": "http://emr.ge",
+  "name": "emergence-dav"
+}
