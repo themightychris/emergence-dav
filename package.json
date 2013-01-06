@@ -1,14 +1,10 @@
-
-
-
-
 {
   "description": "Provides a WebDAV server for accessing emergence virtual filesystems",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
     "flatiron": "0.3.2",
-    "jsDAV": "git://github.com/themightychris/jsDAV.git#refactor"
+    "jsDAV": "git://github.com/themightychris/jsDAV.git#master"
   },
   "devDependencies": {
     "cli-easy": "0.1.0",
@@ -22,6 +18,3 @@
   "homepage": "http://emr.ge",
   "name": "emergence-dav"
 }
-
-
-
